@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Montserrat+Subrayada:wght@400;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/* Header Section is Here */
+header{
+    background-color: #303030;
+}
+
+.container{
+    color: greenyellow;
+    overflow: hidden;
+    width: 1100px;
+    margin: auto;
+    background-color: ;
+}
+.logo{
+    width: 200px;
+    float: left;
+}
+.menu{
+    width: 700px;
+    float: left;
+}
+.searchi{
+    width: 200px;
+    float: left;
+}
+.menu ul li{
+    float: left;
+    margin-right: 20px;
+    
+}
+.menu ul{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.searchi a i{
+    margin-top: 30px;
+    color: white;
+}
+.logo a img {
+    width: 50%;
+}
+
+.about{
+    background: url(./images/1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+section{
+    padding: 5rem;
+}
+.about_details{
+    color: white;
+    overflow: hidden;
+    width: 40%;
+    margin-top: 13rem;
+}
+.bregister{
+    background-color: #e7631c;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    
+}
+.about_details h1{
+    font-size: 3rem;
+}
+
+.about_details p{
+    font-weight: 300rem;
+    margin-bottom: 2rem;
+}
+/* dance section here */
+#danceid{
+     background: url(./images/b8.png), linear-gradient(#e7631c,#e7631c);
+    /* background: url(./images/b8.png), #e7631c; */
+    
+    background-repeat: no-repeat;
+    background-position: -10%, 0;
+    color: white;
+
+}
+
+.dance_top{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.dance_top h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+}
+
+
+.dance_single_container{
+    /* display: flex; for img side by side its better version of float: */
+    display: flex;
+
+}
+
+
+.singlebox{
+    text-align: center;
+    width: 300px;
+    color: white;
+    background-color: #303030;
+    margin-right: 55px;
+    padding-bottom: 10px;
+}
+
+.singlebox img{
+    margin-right: 5px;
+    width: 300px;
+}
+
+
+.singlebox img h3{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* }
+<!-- End of dance tour section -->
+<!-- start of price of  tour section --> */
+
+#dance_dark{
+    background: url(./images/b8.png), linear-gradient(#010101,#010101);
+    background-repeat: no-repeat;
+    background-position: left;
+    color: white;
+
+}
+ 
+.pp{
+    width: 600px;
+    margin-left: 275px;
+}
+.icon-award{
+
+    font-size: 4rem;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+#s1, #s2, #s3{
+    background-color: #e7631c;
+}
+
+#s1 h3, #s2 h3, #s3 h3{
+    color: #fffcf9;
+    font-size: large;
+}
+.singlebox button{
+    margin: 1rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    background-color: #303030;
+    color: white;
+    width: 220px;
+}
+
+/* <!-- END of price of  tour section --> */
+/* <!-- start of amazing dance sention-1 --> */
+
+#amazing{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.column1{
+    /* float: left; */
+    width: 50%;
+}
+.column1 img{
+    width: 100%;
+}
+.column2{
+    display: flex;
+    width: 50%;
+    background-color: #e7631c;
+    align-items: center;
+    color: white;
+}
+.c2{
+    width: 80%;
+    margin-left: 2rem;
+    padding: 5rem;
+}
+.c2 button{
+    background-color: #000000;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    width: 220px;
+    font-size: large;
+}
+.c2 h3{
+    font-size: 3rem;
+}
+
+
+
+
